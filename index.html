@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./public/css/mystyle.css">
 </head>
 
 <body>
@@ -16,9 +17,9 @@
                 <a class="navbar-brand" href="#">Anonymous Portfolio</a>
             </div>
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="#"><span class="glyphicon glyphicon-folder-open"></span> Portfolio</a></li>
-                <li><a href="#"><span class="glyphicon glyphicon-info-sign"></span> About</a></li>
-                <li><a href="#"><span class="glyphicon glyphicon-link"></span> Social Links</a></li>
+                <li><a href="#Portfolio"><span class="glyphicon glyphicon-folder-open"></span> Portfolio</a></li>
+                <li><a href="#About"><span class="glyphicon glyphicon-info-sign"></span> About</a></li>
+                <li><a href="#SocialLinks"><span class="glyphicon glyphicon-link"></span> Social Links</a></li>
             </ul>
         </div>
     </nav>
@@ -30,25 +31,25 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
-                <h2 class="text-center">Porfolio</h2>
+                <h2 class="text-center" id="Portfolio">Porfolio</h2>
                 <hr></hr>
             </div>
         </div>
         <div class="row">
             <h4>Coming soon...</h4>
             <div class="col-sm-4">
-                <a href="#"><img src="http://fakeimg.pl/365x365/" class="img-responsive"></a>
+                <a href="#"><img src="http://fakeimg.pl/365x365/" class="img-responsive portfolio"></a>
             </div>
             <div class="col-sm-4">
-                <a href="#"><img src="http://fakeimg.pl/365x365/" class="img-responsive"></a>
+                <a href="#"><img src="http://fakeimg.pl/365x365/" class="img-responsive portfolio"></a>
             </div>
             <div class="col-sm-4">
-                <a href="#"><img src="http://fakeimg.pl/365x365/" class="img-responsive"></a>
+                <a href="#"><img src="http://fakeimg.pl/365x365/" class="img-responsive portfolio"></a>
             </div>
         </div>
         <div class="row">
             <div class="col-lg-12">
-                <h2 class="text-center">About</h2>
+                <h2 class="text-center" id="About">About</h2>
                 <hr></hr>
             </div>
         </div>
@@ -58,12 +59,13 @@
                     <li class="media">
                         <div class="media-left">
                             <a href="#">
-                                <img class="media-object" src="http://fakeimg.pl/100x100/" alt="My Picture">
+                                <img class="media-object" src="./public/images/bluejays-me.jpg" alt="My Picture">
                             </a>
                         </div>
                         <div class="media-body">
-                            <h4 class="media-heading">Anonymous Portfolio</h4>
-                            <p>Write about section here</p>
+                            <p>I am a self-taught web developer with skills in HTML, CSS, JavaScript, Twitter Bootstrap and AngularJS. I am a tech head in the sense I enjoy researching and using the latest technology to ease my life.</p>
+                            <p>I value my privacy and that's why I don't show my face or reveal my identity on the internet. If you were linked here, you were given the link by me most likely. </p>
+                            <p>I enjoy watching some sports especially soccer and basketball. My favourite team is Real Madrid. I also listen to some music particularly Future and Drake.</p>
                         </div>
                     </li>
                 </ul>
@@ -71,14 +73,14 @@
         </div>
         <div class="row">
             <div class="col-lg-12">
-                <h2 class="text-center">Social Links</h2>
+                <h2 class="text-center" id="SocialLinks">Social Links</h2>
                 <hr></hr>
                 <div class="row text-center">
-                    <a class="btn btn-default" href="#" aria-label="Github">
+                    <a class="btn btn-default" href="https://github.com/alif50" aria-label="Github">
                         <i class="fa fa-github fa-5x" aria-hidden="true"></i>
                         <p>Github</p>
                     </a>
-                    <a class="btn btn-default" href="#" aria-label="Codepen">
+                    <a class="btn btn-default" href="http://codepen.io/AliF50/" aria-label="Codepen">
                         <i class="fa fa-codepen fa-5x" aria-hidden="true"></i>
                         <p>Codepen</p>
                     </a>
@@ -89,7 +91,9 @@
             <p class="text-center">&copy 2017</p>
         </div>
     </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g=" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="./public/src/animations.js"></script>
 </body>
 
 </html>
