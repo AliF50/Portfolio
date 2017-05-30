@@ -5,3 +5,20 @@
 .hover {
     box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
 }
+
+.portfolio {
+    height: 365px;
+    width: 365px;
+}
+
+.wrapper .text {
+    position: relative;
+    bottom: 50px;
+    left: 0px;
+    color: lightgrey;
+    visibility: hidden;
+}
+
+.wrapper:hover .text {
+    visibility: visible;
+}
