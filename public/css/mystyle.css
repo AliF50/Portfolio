@@ -13,10 +13,14 @@
 
 .wrapper .text {
     position: relative;
-    bottom: 50px;
+    bottom: 70px;
     left: 0px;
     color: white;
     visibility: hidden;
+}
+
+.black {
+    color: black;
 }
 
 .wrapper:hover .text {
