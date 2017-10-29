@@ -1,5 +1,9 @@
 .footer {
-    margin: 50px;
+    margin-top: 10px;
+    padding-top: 25px;
+    padding-bottom: 15px;
+    background-color: #57A773;
+    color: #EFE9F4;
 }
 
 .hover {
@@ -45,20 +49,114 @@
 }
 
 #myBtn {
-    display: none; /* Hidden by default */
+    display: none; /* Hidden by inverse */
     position: fixed; /* Fixed/sticky position */
     bottom: 20px; /* Place the button at the bottom of the page */
     right: 30px; /* Place the button 30px from the right */
     z-index: 99; /* Make sure it does not overlap */
     border: none; /* Remove borders */
     outline: none; /* Remove outline */
-    background-color: red; /* Set a background color */
+    border-radius: 4px;
     color: white; /* Text color */
     cursor: pointer; /* Add a mouse pointer on hover */
     padding: 15px; /* Some padding */
-    border-radius: 10px; /* Rounded corners */
+    background-color: #EE6352;
 }
 
-#myBtn:hover {
-    background-color: #555; /* Add a dark-grey background on hover */
+#myBtn:hover,
+#myBtn:focus{
+    background-color: #D54A39;
+}
+
+/*Navigation bar start */
+.navbar-inverse {
+  background-color: #08B2E3;
+  background-image: none;
+  border-color: #08b2e3;
+}
+.navbar-inverse .navbar-brand {
+  color: #EFE9F4;
+}
+.navbar-inverse .navbar-brand:hover,
+.navbar-inverse .navbar-brand:focus {
+  color: #D3D3D3;
+
+}
+.navbar-inverse .navbar-text {
+  color: #EFE9F4;
+}
+.navbar-inverse .navbar-nav > li > a {
+  color: #EFE9F4;
+}
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > li > a:focus {
+  color: #D3D3D3;
+  background-color: #22CCFD;
+}
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus {
+  color: #D3D3D3;
+  background-color: #22CCFD;
+}
+.navbar-inverse .navbar-nav > .open > a,
+.navbar-inverse .navbar-nav > .open > a:hover,
+.navbar-inverse .navbar-nav > .open > a:focus {
+  color: #D3D3D3;
+  background-color: #22CCFD;
+}
+.navbar-inverse .navbar-toggle {
+  border-color: #EFE9F4;
+}
+.navbar-inverse .navbar-toggle:hover,
+.navbar-inverse .navbar-toggle:focus {
+  background-color: #22CCFD;
+}
+.navbar-inverse .navbar-toggle .icon-bar {
+  background-color: #4a4b4b;
+}
+.navbar-inverse .navbar-collapse,
+.navbar-inverse .navbar-form {
+  border-color: #4a4b4b;
+}
+.navbar-inverse .navbar-link {
+  color: #4a4b4b;
+}
+.navbar-inverse .navbar-link:hover {
+  color: #D3D3D3;
+}
+
+@media (max-width: 767px) {
+  .navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
+    color: #4a4b4b;
+  }
+  .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #D3D3D3;
+  }
+  .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #D3D3D3;
+    background-color: #08b2e3;
+  }
+}
+/*Navigation bar end */
+.socialLink{
+    background-color: #8ADAA6;
+    border-radius: 10px;
+}
+
+.socialLink:hover,
+.socialLink:focus{
+    background-color: #71C18D;
+}
+
+.socialLink p{
+    color: white;
+}
+
+.socialLink:hover p,
+.socialLink:focus p{
+    color: #D3D3D3;
 }
