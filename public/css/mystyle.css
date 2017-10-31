@@ -150,6 +150,7 @@
 .socialLink:hover,
 .socialLink:focus{
     background-color: #71C18D;
+    transform: scale(1.2);
 }
 
 .socialLink p{
